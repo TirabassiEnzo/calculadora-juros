@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Juros</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header class="cabecalho">
+        <nav class="menu">
+            <img src="./Ícones/menu.png" class="menu">
+            <img src="./Ícones/home.png" class="home">
+        </nav>
+        <h1>CALCULADORA DE JUROS</h1>
+        <a href="saibaMais.html" class="sobre">Saiba mais</a>
+    </header>
+
+
+    <center>
+    <div class="fundo">
+    </center>
+
+    <div class="formulario">
+        <form action="">
+        <label for="capital">Capital</label><br>
+        <input type="number" id="capital" required>
+        <br><br>
+        <label for="taxa">Taxa(%)</label><br>
+        <input type="number" id="taxa" required>
+        <br><br>
+        <label for="tempo">Tempo(meses)</label><br>
+        <input type="number" id="tempo" required>
+        <br><br>
+        <label for="tipoJuros">Tipo de Juros:</label><br>
+        <select id ="tipoJuros">
+            <option value="simples">Simples</option>
+            <option value="composto">Composto</option>
+        </select>
+    
+        
+        <div>
+        <br><br><br>
+        <button type="button" onclick="calcular()">CALCULAR</button>
+        
+        <button type="button" onclick="limparDados()" class="button2">LIMPAR DADOS</button>
+        <br><br>
+        </div>
+
+        <center>
+        <p id="resultado"></p>
+        
+        <p id="resultado2"></p>
+        </center>
+        
+
+        
+    </form>
+    </div>
+    </div>
+</body>
+</html>

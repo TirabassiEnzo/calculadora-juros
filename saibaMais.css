@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: rgb(28, 127, 214);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
+h1{
+    color: aliceblue;
+    font-family: "Antonio", sans-serif;
+}
+.sobre{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Antonio", sans-serif;
+    font-size: 18px;
+}
+.sobre:hover{
+    scale: 1.2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+}
+.item{
+    background-color:rgba(0, 136, 255, 0.518);
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0px 25px;
+}
+.item h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.item p{
+    color: aliceblue;
+    font-family: "Antonio", sans-serif;
+    padding: 10px;
+}
+.formula{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: "Antonio", sans-serif;
+}
+.onde{
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: "Antonio", sans-serif;
+}
+.montante{
+    color: aliceblue;
+    font-family: "Antonio", sans-serif;
+    padding: 10px;
+}
