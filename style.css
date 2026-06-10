@@ -20,19 +20,23 @@ h1{
     color: aliceblue;
    font-family: "Antonio", sans-serif;
 }
+.form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.fundo{
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: rgba(0, 136, 255, 0.518);
     border-radius: 20px;
     width: 400px;
     height: 520px;
     margin-top: 50px;
     box-shadow: 0 10px 25px;
-}
-.formulario{
-    position: absolute;
-    top: 140px;
-    left: 595px;
 }
 input{
     width: 350px;
